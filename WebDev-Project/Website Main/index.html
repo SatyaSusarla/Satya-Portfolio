@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Satya Susarla's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <br>
+<!-- partial:index.partial.html -->
+<!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="mode-switch">
+        <button id="modeButton" onclick="toggleMode()">🌞</button>
+    </div>
+      <div class="container">
+        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="small-logo-container">
+            <a class="small-logo" href="#">↥Satya Susarla</a>
+          </div>
+          
+          
+        </div>
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li class="#about"><a href="#">About</a></li>
+            <li><a href="#work">Areas of Interest</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    
+    <div class="container-fluid big-logo-row">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 big-logo-container">
+            <h1 class="big-logo">↧Satya</h1>
+          </div><!--/.col-xs-12 -->
+        </div><!--/.row -->
+      </div><!--/.container -->
+    </div><!--/.container-fluid -->
+
+    <div class="container">
+      <div class="about-box">
+      <img src="IMG_2446~2.jpg" alt="Satya's Photo" class="profile-pic">
+          <div class="about-text">
+              <h1>Hi, I'm Satya Susarla
+                <hr>
+              </h1>
+              <p>
+                Thank you for visiting my page.<br>
+                I am a student at the National Institute of Technology, Warangal. I am a Mechanical Engineering student with a minor degree in Computer Science. While my core interests include Machine Learning, Material Science, and Design. I am also passionate about exploring interdisciplinary applications and innovative solutions within these fields.
+              </p>
+          </div>
+      </div>
+    </div>
+    <div class="container" id="work">
+      <div class="box work-box">
+          <h2>Areas of Interest</h2>
+          <div class="work-item">
+            <h4>Machine Learning</h4>
+            <p style="font-size: 16px;">My passion for Machine Learning has led me to work on several innovative projects. One of my key projects, Object Detection using CNN, involved developing a model by combining Convolutional Neural Networks (CNNs) with the You Only Look Once (YOLO) model. To enhance accuracy, I implemented intersection over union and non-max suppression techniques. Another significant project, Image-to-Image Translation using GANs, involved developing a translator using a Pix2Pix GAN. I optimized its performance through rigorous tuning and conducted a comparative analysis with a U-Net model using a dataset of film negatives and their corresponding positive images. I also implemented image super-resolution on the GAN outputs to enhance the final results and streamlined the entire process. Additionally, I worked on fluid dynamics data using Artificial Neural Networks (ANNs), showcasing my ability to apply machine learning techniques to complex scientific data.</p>
+            <br>
+            <h4>Material Science</h4>
+            
+            <p style="font-size: 16px;">I have a profound interest in Material Science, which was sparked by taking a comprehensive course in the subject. This course deepened my understanding of the fundamental principles and advanced concepts, driving my enthusiasm to explore this field further.</p>
+            <br>
+            <h4>Design</h4>
+            
+            <p style="font-size: 16px;">In the realm of design, I was a key contributor to a team that designed and implemented the first prototype for a multi-utility toothbrush, which is currently under review for patent rights. My contributions included implementing initial designs using Blender and manufacturing prototypes using 3D printing and additive manufacturing techniques. This project highlights my ability to blend creativity with practical engineering skills to bring innovative ideas to life.</p>
+            <br>
+          
+          </div>
+      </div>
+      </div>        
+      <section id="resume">
+          <div class="container">
+              <div class="content-box">
+                  <h2>Resume</h2>
+                  <p>These are my resumes for different professional domains.</p>
+                  <div class="resume-buttons">
+                      <button class="btn-mech" onclick="window.open('https://drive.google.com/file/d/1-8TvTiHgVcDY-GAf2aDB0wYIMr6uegih/view?usp=sharing')">Mechanical Engineer</button>
+                      <button class="btn-cs" onclick="window.open('https://drive.google.com/file/d/1-8TvTiHgVcDY-GAf2aDB0wYIMr6uegih/view?usp=sharing')">Computer Science Engineer</button>
+                      <button class="btn-ml" onclick="window.open('https://drive.google.com/file/d/1-8TvTiHgVcDY-GAf2aDB0wYIMr6uegih/view?usp=sharing')">ML Engineer</button>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="content-box">
+            <h2>Contact Me</h2>
+            <p>Details on how to get in touch with me.</p>
+            <div class="contact-buttons">
+              <a href="mailto:satya.susarla.2005@gmail.com" class="btn gmail">
+                <img src="mail.png" alt="Gmail Icon" style="width: 20px; height: 20px;"> Gmail
+              </a>
+              <a href="https://www.linkedin.com/in/satya-susarla" class="btn linkedin" target="_blank">
+                <img src="ln.webp" alt="LinkedIn Icon" style="width: 20px; height: 20px;"> LinkedIn
+              </a>
+              <a href="https://github.com/SatyaSusarla" class="btn github" target="_blank">
+                <img src="git.png" alt="GitHub Icon" style="width: 20px; height: 20px;"> GitHub
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+    <footer>
+        <div class="footer-content">
+          <hr>
+            <div id="clock"></div>
+        </div>
+    </footer>
+    
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

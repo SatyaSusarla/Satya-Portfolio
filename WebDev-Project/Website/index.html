@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satya's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <nav>
+                <a href="#about">About</a>
+                <a href="#work">Areas of Interest</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="mode-switch">
+                <button id="modeButton" onclick="toggleMode()">🌞</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="about-box">
+                <img src="IMG_2525~2.jpg" alt="Satya's Photo" class="profile-pic"></img>
+                    <div class="about-text">
+                        <h1>Hi, I'm Satya</h1>
+                        <p>
+                            Welcome to my portfolio website! Here you'll find information about my work, 
+                            experience, and how to get in touch with me. Feel free to explore and learn 
+                            more about what I do.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container" id="work">
+            <div class="box work-box">
+                <h2>Areas of Interest</h2>
+                <div class="work-item">
+                    <p>Description of project 1.</p>
+                </div>
+            </div>
+        </div>        
+        <section id="resume">
+            <div class="container">
+                <div class="content-box">
+                    <h2>Resume</h2>
+                    <p>Your resume content goes here.</p>
+                    <div class="resume-buttons">
+                        <button class="btn-mech" onclick="window.open('https://drive.google.com/link-to-mechanical-resume')">Mechanical</button>
+                        <button class="btn-cs" onclick="window.open('https://drive.google.com/link-to-cs-resume')">Computer Science</button>
+                        <button class="btn-ml" onclick="window.open('https://drive.google.com/link-to-ml-resume')">ML Engineer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="content-box">
+                    <h2>Contact Me</h2>
+                    <p>Details on how to get in touch with you.</p>
+                    <div class="contact-buttons">
+                        <a href="mailto:your-email@example.com" class="btn gmail">
+                            <i class="fab fa-google"></i> Gmail
+                        </a>
+                        <a href="https://www.linkedin.com/in/your-profile" class="btn linkedin" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/your-username" class="btn github" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div id="clock"></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
